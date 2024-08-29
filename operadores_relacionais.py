@@ -46,6 +46,8 @@ else:
     print("Ana está fazendo as compras adiantado!")
 
 if(pedidoMinPizza >= pedidoPizza):
+    if(pedidoMinPizza == pedidoPizza):
+        print("Ana comprou o minimo permitido de pizza")
     print("Ana não comprou pizzas suficiente!")
 
 if(pedidoMinBebida < pedidoBebida):
