@@ -21,10 +21,10 @@ def validarInscri():
         print("Marcelo está na lista de espera!")
         return False
 
-    if idadeMarcelo <= idadeMin and idadeMarcelo >= idadeMax:
+    if idadeMarcelo >= idadeMin and idadeMarcelo <= idadeMax:
         print("Marcelo tem a idade permitida para a inscrição!")
     else:
-        print("Marcelo não poderá realizar sua inscrição!")
+        print("Marcelo não tem a idade permitida para a inscrição!")
         return False
     return True
 
