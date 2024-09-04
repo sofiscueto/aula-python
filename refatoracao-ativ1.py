@@ -5,10 +5,13 @@ valores = [100, 200, 300]
 totalInicial = sum(valores)
 
 desconto = 0
-if totalInicial > 500: #Se o valor total for maior que 500 ele recebera desconto de:
-    desconto = totalInicial * 0.1 #Quantidade de desconto que será aplicado
+#Se o valor total for maior que 500 ele recebera desconto de:
+if totalInicial > 500: 
+#Quantidade de desconto que será aplicado
+    desconto = totalInicial * 0.1 
 
-totalDesconto = totalInicial - desconto #Aqui ele vai saber quanto saira com o desconto aplicado caso a compra seja maior que 500
+#Aqui ele vai saber quanto saira com o desconto aplicado caso a compra seja maior que 500
+totalDesconto = totalInicial - desconto 
 
 #Resultado da operação:
 print("Total antes do desconto:", totalInicial)
