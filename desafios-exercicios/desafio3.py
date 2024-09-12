@@ -1,4 +1,4 @@
-#Fatiar Strings: Dada uma string com o formato "Primeiro Nome Sobrenome", crie um programa que extraia e imprima apenas o nome do meio (ou seja, o sobrenome).
+#Fatiar Strings: Dada uma string com o formato "Primeiro Nome Sobrenome", crie um programa que extraia e imprima apenas o nome do meio (ou seja, o sobrenome)..
 # Para esse desafio utilize:
 # ● split() é um método de strings que divide a string em uma lista de substrings com base em um delimitador.
 #       texto = “Eu me chamo Leonardo”
