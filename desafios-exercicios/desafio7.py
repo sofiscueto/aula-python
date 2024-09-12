@@ -5,8 +5,7 @@
 #    Esse if tem o significado de = “Se aluno que foi digitado existe na lista = True”
 
 notas = {"Pedro": 8.5, "Eduarda": 7.0, "Sofia": 9.0, "Renata": 6.5}
-nomedoaluno = input("Digite o nome do aluno para consultar a nota: ").split()
-if nomedoaluno in notas:
+nomedoaluno = input("Digite o nome do aluno para consultar a nota: ")
     print(f"A nota de {nomedoaluno} é {notas[nomedoaluno]:.1f}")
 else:
     print(f"Aluno '{nomedoaluno}' não encontrado.")
