@@ -4,8 +4,9 @@
 #   if aluno in notas:
 #    Esse if tem o significado de = “Se aluno que foi digitado existe na lista = True”
 
-notas = {"Pedro": 8.5, "Eduarda": 7.0, "Sofia": 9.0, "Renata": 6.5}
+notas = {"pedro": 8.5, "eduarda": 7.0, "sofia": 9.0, "renata": 6.5}
 nomedoaluno = input("Digite o nome do aluno para consultar a nota: ")
-    print(f"A nota de {nomedoaluno} é {notas[nomedoaluno]:.1f}")
+if nomedoaluno in notas:
+    print(f"A nota de {nomedoaluno} é {notas[nomedoaluno]}.")
 else:
     print(f"Aluno '{nomedoaluno}' não encontrado.")
