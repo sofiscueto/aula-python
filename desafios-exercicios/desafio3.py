@@ -11,7 +11,7 @@ nome = "Sofia Cueto de Barros"
 # Dividindo a string em partes usando o espaço como delimitador
 partes = nome.split(" ")
 # Verificando se a string contém pelo menos duas partes
-if len(partes) >= 2:
+if len(partes) > 1:
 # O sobrenome está na última posição da lista resultante
     sobrenome = partes[-1]
     print(f"O sobrenome é: {sobrenome}")
