@@ -1,4 +1,4 @@
-#Método de Busca Leitura
+#Método de Busca Leitura.
 with open("aula-python/text/exemplo_aula05.txt", "r", encoding="utf-8") as arquivo:
     conteudo = arquivo.read()
     print(conteudo)
