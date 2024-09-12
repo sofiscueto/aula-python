@@ -11,11 +11,11 @@
 
 frutas = ['maçã', 'banana', 'laranja']
 print(f"Frutas na lista: {frutas}")
-novafruta = input("Digite o nome da fruta que você deseja adicionar: ").strip().lower()
+novafruta = input("Digite o nome da fruta que você deseja adicionar: ").split().lower()
 frutas.append(novafruta)
 print(f"Lista atualizada:{frutas}")
 # Remover uma fruta existente da lista
-retirarfruta = input("Digite o nome da fruta que você deseja remover: ").strip().lower()
+retirarfruta = input("Digite o nome da fruta que você deseja remover: ").split().lower()
 if retirarfruta in frutas:
     frutas.remove(retirarfruta)
     print(f"Lista atualizada:{frutas}")
