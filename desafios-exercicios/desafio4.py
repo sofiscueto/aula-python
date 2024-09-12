@@ -1,6 +1,6 @@
 #Manipulação de Listas: Crie um programa que inicie com uma lista de frutas. O programa deve permitir que o usuário adicione uma nova fruta à lista e, em seguida, remova uma fruta existente.
 # Frutas Iniciais: maça, banana, laranja
-# Para esse desafio utilize
+# Para esse desafio utilize:
 # ● append() função para adicionar item na lista
 #       lista.append(novo_item)
 # ● remove() função para remover item na lista
