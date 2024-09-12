@@ -1,4 +1,4 @@
-#Trabalhar com Tuplas: Criar uma tupla contendo três coordenadas (x, y, z). O programa deve permitir ao usuário alterar a coordenada y e exibir a tupla atualizada.
+#Trabalhar com Tuplas: Criar uma tupla contendo três coordenadas (x, y, z). O programa deve permitir ao usuário alterar a coordenada y e exibir a tupla atualizada..
 
 coordenadas = (10, 20, 30)
 print(f"Coordenadas atuais: {coordenadas}")
