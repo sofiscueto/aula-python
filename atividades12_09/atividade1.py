@@ -4,7 +4,7 @@
 # ● Utilize Input para o usuário digitar os dados e lembre de converter o valor do input em float antes de utilizar
 # ● Retorne uma mensagem “agradável” ao usuário informando sobre a conversão
 # ● Dica: Ao declarar a variável float no print e utilizar :.2f ele irá arredondar para 2 casas decimais.
-#   ○ Ex: print(f”{temperatura_celsius:.2f}°C”) # temperatura_celsius = 38 | Saída: 38.00°C
+#   ○ Ex: print(f”{temperatura_celsius:.2f}°C”) # temperatura_celsius = 38 | Saída: 38.00°C.
 
 def celsius_para_fahrenheit(celsius):
     """Converte a temperatura de Celsius para Fahrenheit"""

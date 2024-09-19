@@ -15,11 +15,11 @@ def realizar_operacao(numero1, numero2, operacao):
     # Definindo a lista de operações válidas
     operacoes_validas = ['adição', 'subtração', 'multiplicação', 'divisão']
     
-    # Verificando se a operação está na lista de operações válidas
+    # Verificar se a operação ta na lista das operações válidas
     if operacao not in operacoes_validas:
         return "Operação inválida. O programa será finalizado."
     
-    # Realizando a operação de acordo com a escolha do usuário
+    # Realiza a operação de acordo com a escolha da pessoa
     if operacao == 'adição':
         resultado = numero1 + numero2
     elif operacao == 'subtração':
@@ -27,33 +27,28 @@ def realizar_operacao(numero1, numero2, operacao):
     elif operacao == 'multiplicação':
         resultado = numero1 * numero2
     elif operacao == 'divisão':
-        # Verificando se o divisor é zero para evitar divisão por zero
         if numero2 == 0:
             return "Erro: Divisão por zero não é permitida."
         resultado = numero1 / numero2
     
-    # Retornando o resultado com uma mensagem amigável
     return f"O resultado da {operacao} entre {numero1} e {numero2} é {resultado:.2f}."
 
 def main():
     try:
-        # Solicitando ao usuário os números e a operação desejada
         numero1 = float(input("Digite o primeiro número: "))
         numero2 = float(input("Digite o segundo número: "))
         operacao = input("Digite a operação desejada (adição, subtração, multiplicação, divisão): ")
         
-        # Chamando a função de operação e exibindo o resultado
+        # Chama e exibe o resultado da função
         resultado = realizar_operacao(numero1, numero2, operacao)
         
-        # Verificando se o resultado é uma string de mensagem de erro
+        # Verifica se o resultado é uma string de mensagem de erro
         if isinstance(resultado, str):
             print(resultado)
         else:
-            print(resultado)
+            print(f"Resultado {numero1} {operacao} {numero2} = {resultado}")
     
     except ValueError:
         print("Erro: Entrada inválida. Por favor, digite números válidos.")
 
-# Executando o programa principal
-if __name__ == "__main__":
-    main()
+main()
